@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.nav-bawah {
+  display: none;
+}
+.side-menu {
+  width: 22vw;
+  height: 60vw;
+  border-radius: 24px;
+  padding: 2vw 1vw;
+  background: #608bff;
+}
+.flex-custom {
+  display: flex;
+}
+.card-tengah-2 h2 {
+  font-size: 2.5vw;
+}
+.orang-angka {
+  font-size: 1vw;
+  margin-top: 2vw;
+}
+.des-angka-merah {
+  font-size: 0.7vw;
+  font-weight: 600;
+  color: #ce4c58;
+}
+.des-angka-hijau {
+  font-size: 0.7vw;
+  font-weight: 600;
+  color: #489078;
+}
+.dot {
+  width: 1.2vw;
+  border-radius: 5px;
+  margin-right: 0.6vw;
+  height: 0.8vw;
+  background-color: #194af1;
+}
+.dot-text {
+  margin-top: -0.3vw;
+  font-size: 1vw;
+  font-weight: 600;
+}
+.img-wrapper {
+  width: 20vw;
+  margin-top: -3vw;
+}
+.img-wrapper img {
+  width: 100%;
+}
+.btn-custom-tengah {
+  width: 15vw;
+  padding: 0.8vw;
+  font-weight: 600;
+  color: #194af1;
+  border: none;
+  border-radius: 8px;
+  font-size: 1vw;
+  background-color: #ffffff;
+}
+.btn-custom-tengah:hover {
+  background-color: #f0f4fb;
+}
+.btn-custom-side {
+  width: 15vw;
+  padding: 0.8vw;
+  font-weight: 400;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1vw;
+  background-color: #194af1;
+}
+.chart-g {
+  margin-top: 4vw;
+}
+#chart {
+  width: 40vw;
+}
+#chart-kelas {
+  width: 18vw;
+}
+#chart-guru {
+  width: 18vw;
+}
+.btn-custom-side:hover {
+  background-color: #446df1;
+}
+.side-control {
+  margin-top: 2vw;
+}
+.side-suhu {
+  margin-top: 4vw;
+}
+.card-scroll-guru {
+  margin: 0.5vw 0vw;
+  width: auto;
+  max-height: 26vw;
+  overflow: auto;
+}
+.card-scroll-riwayat {
+  margin: 0.5vw 0vw;
+  width: auto;
+  max-height: 31vw;
+  overflow: auto;
+}
+.card-scroll-lampu {
+  margin: 0.5vw 0vw;
+  width: auto;
+  max-height: 29vw;
+  overflow: auto;
+}
+.card-scroll-aktivitas-guru {
+  margin: 0.5vw 0vw;
+  width: auto;
+  max-height: 10vw;
+  overflow: auto;
+}
+.guru-info td {
+  font-size: 1vw;
+  border-bottom: none;
+}
+.guru-info th {
+  color: #c7c7c7;
+  border-bottom: none;
+  font-size: 1vw;
+}
+.card-side-lampu {
+  overflow: auto;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 2vw;
+}
+.side-menu a {
+  text-decoration: none;
+}
+.card-side-suhu {
+  margin-top: 2vw;
+  margin-left: 1vw;
+  width: 43vw;
+  height: 51vw;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 2vw;
+}
+.suhu-text-card {
+  display: block;
+}
+.control-nav {
+  display: none;
+}
+.suhu-control span {
+  font-size: 3vw;
+  margin: 0vw 5vw;
+  color: #608bff;
+}
+
+.suhu-control h1 {
+  font-size: 4vw;
+  color: #608bff;
+}
+.suhu-control {
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  margin-left: 4vw;
+}
+.search-wraper {
+  margin-left: 30vw;
+}
+.card-side-pintu {
+  margin-top: 1vw;
+  width: 25vw;
+  height: 15vw;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 2vw;
+}
+.card-moni-utama {
+  margin-top: 1vw;
+  width: 70vw;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 2vw;
+  margin-bottom: 1vw;
+}
+.card-moni-kedua {
+  margin-top: 1vw;
+  width: 70vw;
+  background-color: #ffffff;
+  border-radius: 24px;
+  padding: 2vw;
+}
+.bg-1-body {
+  width: 100vw;
+  background: #f0f4fb;
+  padding: 1.5rem !important;
+}
+.main-side {
+  margin: 2vw;
+}
+.side-menu img {
+  width: 12vw;
+  margin-left: 3.5vw;
+}
+.side-menu li {
+  width: 15vw;
+  list-style: none;
+  padding: 1vw 1.2vw;
+  margin: 2vw 2.3vw;
+  border-radius: 10px;
+  font-weight: 200;
+}
+.card-tengah {
+  width: 48vw;
+  border-radius: 24px;
+  height: 17vw;
+  padding: 2vw 3vw;
+}
+.card-tengah-s {
+  width: 48vw;
+  border-radius: 24px;
+  height: 17vw;
+  padding: 2vw 3vw;
+  margin-top: 1vw !important;
+}
+.card-side {
+  width: 20vw;
+  border-radius: 24px;
+  padding: 2vw 2vw;
+  background-color: #ffffff;
+}
+.card-side-2 {
+  width: 20vw;
+  border-radius: 24px;
+  padding: 2vw 2vw;
+  margin-top: 1vw;
+  height: 17vw;
+  background-color: #ffffff;
+}
+.card-tengah-2 {
+  width: 22.5vw;
+  border-radius: 24px;
+  padding: 2vw 2vw;
+  height: 15vw;
+  background-color: #ffffff;
+  margin-top: 2vw;
+}
+.mr-2 {
+  margin-right: 2vw;
+}
+.text-suhu {
+  margin-left: 1vw;
+}
+.kelas-drop span {
+  font-size: 1vw;
+  font-weight: 700;
+}
+.kelas-drop {
+  margin-top: -0.3vw;
+}
+.side-card-items {
+  margin-top: 1vw;
+}
+.card-side-2 h5 {
+  font-size: 1.5vw;
+}
+.text-laporan h4 {
+  font-weight: 600;
+}
+.mts-4 {
+  margin-top: 1.5rem !important;
+}
+.mts-4s {
+  margin-top: 4rem !important;
+}
+.mts-5 {
+  margin-top: 3rem !important;
+}
+.side-card-items img {
+  height: 3.5vw;
+  width: 3.5vw;
+  margin-top: 0.2vw;
+}
+.bg-biru-muda {
+  background: #5d80fe;
+}
+.bg-putih {
+  background: #ffffff;
+}
+.biru {
+  color: #344add;
+}
+.putih {
+  color: #ffffff;
+}
+.active-menu {
+  background-color: white;
+  color: black;
+}
+.side-menu li {
+  font-size: 1.2vw;
+}
+.bottom-li li {
+  font-size: 1.2vw;
+}
+.selamat-datang {
+  font-size: 1.3vw;
+}
+.card-tengah h2 {
+  font-size: 2.5vw;
+}
+.card-tengah p {
+  font-size: 1vw;
+}
+.selamat-nama {
+  font-size: 2.3vw;
+  font-weight: 600;
+}
+.side-menu li:hover {
+  background-color: white;
+  color: black;
+}
+.side-menu .bottom-li {
+  padding-top: 10vh;
+}
+.bantuan-li {
+  background-color: rgba(255, 255, 255, 0.27);
+  color: #ffffff;
+}
+
+.search {
+  position: relative;
+  margin-bottom: 1vw;
+}
+
+.search input {
+  height: 3vw;
+  width: 15vw;
+  text-indent: 25px;
+  border-radius: 20px;
+  font-size: 1vw;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.search i {
+  color: #194af1;
+}
+.notif i {
+  background-color: #ffffff;
+  padding: 0.8vw;
+  border-radius: 50%;
+  margin-left: 1vw;
+  color: #194af1;
+  margin-top: -1.3vw;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid blue;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+}
+
+/* setting */
